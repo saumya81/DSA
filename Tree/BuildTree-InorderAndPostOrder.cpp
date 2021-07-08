@@ -1,3 +1,5 @@
+//here index will start from end as root in postorder will we the last element
+
 class Solution {
 public:
   
