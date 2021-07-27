@@ -11,7 +11,7 @@ class Solution{
 	            if(j==0)
 	            dp[i][j]=0;
 	            if(i==0)
-	            dp[i][j]=INT_MAX-1;
+	            dp[i][j]=INT_MAX-1; // as we will add one everytime if there is one more way so to make it not more than INT_MAX we are usint INT_MAX-1
 	        }
 	    }
 	     for(int i=1;i<M+1;i++)
