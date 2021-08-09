@@ -1,3 +1,5 @@
+//LOT=level order traversal
+
 class Solution {
 public:
     Node* connect(Node* root) {
