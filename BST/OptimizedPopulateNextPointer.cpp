@@ -7,8 +7,7 @@ public:
         queue<Node*> q;
         q.push(root);
         q.push(NULL);
-        vector<Node*> v;
-     
+        
         while(!q.empty())
         {
             Node* temp=q.front();
