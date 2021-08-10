@@ -9,7 +9,6 @@ struct Node
 	}
 	
 };
-*/ 
 Node* merge(Node* a,Node* b)
 {
     Node *result=NULL;
