@@ -38,12 +38,7 @@ Node *deleteNode(Node *root,  int X)
                 
                 swap(root->data ,succ->data);
             
-                if (succParent != root)
-                    succParent->left = succ->right;
-                else
-                    succParent->right = succ->right;
-                
-                delete (succ); 
+                 root->right=deleteNode(root->right,X);
         }
     }
     return root;
